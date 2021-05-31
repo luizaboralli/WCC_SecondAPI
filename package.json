@@ -1,0 +1,37 @@
+{
+  "name": "npm-init",
+  "version": "1.0.0",
+  "description": "npm - init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizaboralli/WCC_SecondAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizaboralli/WCC_SecondAPI/issues"
+  },
+  "homepage": "https://github.com/luizaboralli/WCC_SecondAPI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsontoxml": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "node-fetch": "2.6.1",
+    "passport": "^0.4.1",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.6.2"
+  }
+}
