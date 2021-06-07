@@ -1,4 +1,4 @@
-const TabelaAgendamento = require('./TabelaAgendamento');
+const TabelaAgendamento = require('../models/TabelaAgendamento');
 const NaoEncontrado = require('../errors/NaoEncontrado');
 
 module.exports = {

@@ -7,4 +7,4 @@ class CampoInvalido extends Error {
     }
 }
 
-module.exports = CampoInvalido
+module.exports = CampoInvalido;
